@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body[dir="rtl"] {
+  font-family: "Inter", "Tahoma", sans-serif;
+}
+
+::selection {
+  background-color: #163B7A;
+  color: #ffffff;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  :focus-visible {
+    outline: 2px solid #163B7A;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Deep-blue gradient used sparingly for header/footer/hero depth, per the
+     "reduce white dominance" visual requirement. */
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, #163b7a 0%, #1f4a94 55%, #102b5c 100%);
+  }
+
+  /* Museum-label style micro-caption used across product & category surfaces */
+  .label-eyebrow {
+    @apply text-[11px] font-semibold uppercase tracking-label text-muted;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-[1400px] px-5 sm:px-8 lg:px-12;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-brand-gradient px-6 py-3 text-sm font-semibold text-white
+      shadow-soft ring-1 ring-inset ring-white/10 transition-all duration-300 ease-editorial
+      hover:shadow-lift hover:ring-accent/40 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-border bg-white px-6 py-3 text-sm
+      font-semibold text-ink transition-all duration-300 ease-editorial hover:border-accent hover:text-primary
+      active:scale-[0.98];
+  }
+
+  .card-surface {
+    @apply rounded-xl2 border border-border bg-white shadow-soft transition-all duration-300 ease-editorial;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-lg bg-border/70;
+  }
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(var(--drift, 0px), 108vh);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

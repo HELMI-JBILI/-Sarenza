@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "search_placeholder": "Rechercher un produit, une marque...",
+    "cart": "Panier",
+    "wishlist": "Favoris",
+    "contact": "Nous contacter",
+    "categories": "Catégories"
+  },
+  "home": {
+    "hero_title": "L'Art du Shopping",
+    "hero_subtitle": "Une sélection premium, une expérience sans compromis.",
+    "hero_cta": "Découvrir la collection",
+    "featured_categories": "Catégories vedettes",
+    "featured_products": "Sélection du moment",
+    "best_sellers": "Meilleures ventes",
+    "latest_products": "Nouveautés",
+    "flash_offers": "Offres flash",
+    "reviews_title": "Ce que disent nos clients",
+    "newsletter_title": "Restez informé",
+    "newsletter_subtitle": "Recevez nos nouveautés et offres exclusives en avant-première.",
+    "newsletter_cta": "S'inscrire",
+    "newsletter_placeholder": "Votre adresse e-mail"
+  },
+  "product": {
+    "add_to_cart": "Ajouter au panier",
+    "quick_view": "Aperçu rapide",
+    "buy_now": "Acheter maintenant",
+    "quantity": "Quantité",
+    "availability_in_stock": "En stock",
+    "availability_low_stock": "Stock limité",
+    "availability_out": "Rupture de stock",
+    "description": "Description",
+    "specifications": "Caractéristiques",
+    "warranty": "Garantie",
+    "delivery_info": "Livraison sous 48 à 72h",
+    "related_products": "Vous aimerez aussi",
+    "recently_viewed": "Récemment consultés",
+    "share": "Partager"
+  },
+  "filters": {
+    "categories": "Catégories",
+    "brands": "Marques",
+    "price_range": "Fourchette de prix",
+    "availability": "Disponibilité",
+    "discount": "Promotion",
+    "sort_by": "Trier par",
+    "sort_newest": "Nouveautés",
+    "sort_price_asc": "Prix croissant",
+    "sort_price_desc": "Prix décroissant",
+    "sort_best_selling": "Meilleures ventes",
+    "clear_filters": "Réinitialiser"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Votre panier est vide.",
+    "continue_shopping": "Continuer mes achats",
+    "subtotal": "Sous-total",
+    "discount": "Remise",
+    "shipping": "Livraison",
+    "shipping_free": "Offerte",
+    "total": "Total",
+    "checkout": "Passer commande",
+    "clear_cart": "Vider le panier",
+    "remove": "Retirer"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "full_name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "Adresse e-mail",
+    "address": "Adresse complète",
+    "city": "Ville",
+    "postal_code": "Code postal (optionnel)",
+    "notes": "Notes complémentaires",
+    "order_summary": "Résumé de la commande",
+    "confirm_order": "Confirmer la commande",
+    "success_title": "Merci pour votre commande !",
+    "success_subtitle": "Votre numéro de commande est",
+    "guest_notice": "Aucun compte requis — commandez en tant qu'invité."
+  },
+  "footer": {
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "faq": "Questions fréquentes",
+    "newsletter": "Newsletter",
+    "rights": "Tous droits réservés."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "search_placeholder": "Search products, brands...",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "contact": "Contact us",
+    "categories": "Categories"
+  },
+  "home": {
+    "hero_title": "The Art of Shopping",
+    "hero_subtitle": "A premium selection, an uncompromising experience.",
+    "hero_cta": "Discover the collection",
+    "featured_categories": "Featured categories",
+    "featured_products": "Curated for you",
+    "best_sellers": "Best sellers",
+    "latest_products": "New arrivals",
+    "flash_offers": "Flash offers",
+    "reviews_title": "What our customers say",
+    "newsletter_title": "Stay in the loop",
+    "newsletter_subtitle": "Get new arrivals and exclusive offers first.",
+    "newsletter_cta": "Subscribe",
+    "newsletter_placeholder": "Your email address"
+  },
+  "product": {
+    "add_to_cart": "Add to cart",
+    "quick_view": "Quick view",
+    "buy_now": "Buy now",
+    "quantity": "Quantity",
+    "availability_in_stock": "In stock",
+    "availability_low_stock": "Low stock",
+    "availability_out": "Out of stock",
+    "description": "Description",
+    "specifications": "Specifications",
+    "warranty": "Warranty",
+    "delivery_info": "Delivery in 48–72h",
+    "related_products": "You may also like",
+    "recently_viewed": "Recently viewed",
+    "share": "Share"
+  },
+  "filters": {
+    "categories": "Categories",
+    "brands": "Brands",
+    "price_range": "Price range",
+    "availability": "Availability",
+    "discount": "Discount",
+    "sort_by": "Sort by",
+    "sort_newest": "Newest",
+    "sort_price_asc": "Price: low to high",
+    "sort_price_desc": "Price: high to low",
+    "sort_best_selling": "Best selling",
+    "clear_filters": "Clear filters"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "continue_shopping": "Continue shopping",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "shipping": "Shipping",
+    "shipping_free": "Free",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clear_cart": "Clear cart",
+    "remove": "Remove"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "full_name": "Full name",
+    "phone": "Phone number",
+    "email": "Email address",
+    "address": "Full address",
+    "city": "City",
+    "postal_code": "Postal code (optional)",
+    "notes": "Additional notes",
+    "order_summary": "Order summary",
+    "confirm_order": "Confirm order",
+    "success_title": "Thank you for your order!",
+    "success_subtitle": "Your order number is",
+    "guest_notice": "No account needed — checkout as a guest."
+  },
+  "footer": {
+    "about": "About us",
+    "contact": "Contact",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "faq": "FAQ",
+    "newsletter": "Newsletter",
+    "rights": "All rights reserved."
+  }
+}

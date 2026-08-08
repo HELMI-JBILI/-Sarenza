@@ -1,0 +1,29 @@
+services:
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    environment:
+      PORT: "4000"
+      NODE_ENV: production
+      CORS_ORIGINS: "http://localhost:5173"
+      JWT_SECRET: "${JWT_SECRET:-dev-secret-change-me}"
+    ports:
+      - "4000:4000"
+    volumes:
+      - sarenza_uploads:/app/uploads
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: "http://localhost:4000/api"
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
+
+volumes:
+  sarenza_uploads:

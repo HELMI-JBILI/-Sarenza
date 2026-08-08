@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "search_placeholder": "ابحث عن منتج أو علامة تجارية...",
+    "cart": "السلة",
+    "wishlist": "المفضلة",
+    "contact": "اتصل بنا",
+    "categories": "الفئات"
+  },
+  "home": {
+    "hero_title": "فن التسوق",
+    "hero_subtitle": "تشكيلة فاخرة وتجربة بلا تنازلات.",
+    "hero_cta": "اكتشف المجموعة",
+    "featured_categories": "فئات مميزة",
+    "featured_products": "مختارات لك",
+    "best_sellers": "الأكثر مبيعاً",
+    "latest_products": "وصل حديثاً",
+    "flash_offers": "عروض خاطفة",
+    "reviews_title": "آراء عملائنا",
+    "newsletter_title": "ابقَ على اطلاع",
+    "newsletter_subtitle": "احصل على آخر المنتجات والعروض الحصرية أولاً.",
+    "newsletter_cta": "اشترك",
+    "newsletter_placeholder": "بريدك الإلكتروني"
+  },
+  "product": {
+    "add_to_cart": "أضف إلى السلة",
+    "quick_view": "عرض سريع",
+    "buy_now": "اشترِ الآن",
+    "quantity": "الكمية",
+    "availability_in_stock": "متوفر",
+    "availability_low_stock": "كمية محدودة",
+    "availability_out": "غير متوفر",
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "warranty": "الضمان",
+    "delivery_info": "التوصيل خلال 48 إلى 72 ساعة",
+    "related_products": "قد يعجبك أيضاً",
+    "recently_viewed": "شوهد مؤخراً",
+    "share": "مشاركة"
+  },
+  "filters": {
+    "categories": "الفئات",
+    "brands": "العلامات التجارية",
+    "price_range": "نطاق السعر",
+    "availability": "التوفر",
+    "discount": "التخفيضات",
+    "sort_by": "ترتيب حسب",
+    "sort_newest": "الأحدث",
+    "sort_price_asc": "السعر: من الأقل إلى الأعلى",
+    "sort_price_desc": "السعر: من الأعلى إلى الأقل",
+    "sort_best_selling": "الأكثر مبيعاً",
+    "clear_filters": "إعادة التعيين"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة.",
+    "continue_shopping": "متابعة التسوق",
+    "subtotal": "المجموع الفرعي",
+    "discount": "الخصم",
+    "shipping": "الشحن",
+    "shipping_free": "مجاني",
+    "total": "الإجمالي",
+    "checkout": "إتمام الطلب",
+    "clear_cart": "إفراغ السلة",
+    "remove": "إزالة"
+  },
+  "checkout": {
+    "title": "إتمام الطلب",
+    "full_name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "address": "العنوان الكامل",
+    "city": "المدينة",
+    "postal_code": "الرمز البريدي (اختياري)",
+    "notes": "ملاحظات إضافية",
+    "order_summary": "ملخص الطلب",
+    "confirm_order": "تأكيد الطلب",
+    "success_title": "شكراً لطلبك!",
+    "success_subtitle": "رقم طلبك هو",
+    "guest_notice": "لا حاجة لإنشاء حساب — اطلب كضيف."
+  },
+  "footer": {
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "faq": "الأسئلة الشائعة",
+    "newsletter": "النشرة الإخبارية",
+    "rights": "جميع الحقوق محفوظة."
+  }
+}
